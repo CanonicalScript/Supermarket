@@ -28,4 +28,10 @@ public class MarketTest
         int cost = market.checkout("ABBACBBABCCBBA");
         assertEquals(420, cost);
     }
+
+    @Test(expected = IllegalStateException.class)
+    public void testCheckoutIllegalProduct() throws Exception
+    {
+        int cost = market.checkout("ABCD");
+    }
 }
