@@ -3,7 +3,7 @@ package org.shopping.market;
 /**
  * Provides the default pricing model using the formula:<br><br>
  *
- *     quantity * price
+ *     price * quantity
  */
 public class DefaultPricingModel extends PricingModel
 {

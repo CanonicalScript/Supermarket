@@ -29,9 +29,10 @@ public class MarketTest
         assertEquals(420, cost);
     }
 
+    @SuppressWarnings("unused")
     @Test(expected = IllegalStateException.class)
     public void testCheckoutIllegalProduct() throws Exception
     {
-        int cost = market.checkout("ABCD");
+        int cost = market.checkout("ABCDE");
     }
 }

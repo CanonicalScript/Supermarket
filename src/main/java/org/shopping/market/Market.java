@@ -69,7 +69,7 @@ public class Market implements Supermarket
     }
 
     /**
-     * Initializes market catalog.
+     * Initializes market catalog with products..
      */
     private void initializeMarket()
     {

@@ -4,8 +4,8 @@ package org.shopping.market;
  * Provides a discount pricing model of 5 items for the price of 3. Items that cannot be grouped
  * into 5 cost full price.  For example given a price of 10<br><br>
  *
- *    5 items = 30
  *    4 items = 40
+ *    5 items = 30
  *    6 items = 40
  *   10 items = 60
  */
