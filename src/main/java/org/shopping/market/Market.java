@@ -73,9 +73,19 @@ public class Market implements Supermarket
      */
     private void initializeMarket()
     {
-        /* add market product items */
-        marketItems.put("A", new Product("A", new DefaultPricingModel(20)));
-        marketItems.put("B", new Product("B", new Discount5for3PricingModel(50)));
-        marketItems.put("C", new Product("C", new DefaultPricingModel(30)));
+        /* add products to market */
+        addItemToMarket(new Product("A", new DefaultPricingModel(20)));
+        addItemToMarket(new Product("B", new Discount5for3PricingModel(50)));
+        addItemToMarket(new Product("C", new DefaultPricingModel(30)));
+    }
+
+    /**
+     * Adds a product item to the market.
+     *
+     * @param product product to add to market
+     */
+    private void addItemToMarket(Product product)
+    {
+        marketItems.put(product.getId(), product);
     }
 }

@@ -1,7 +1,7 @@
 package org.shopping.market;
 
 /**
- * Base pricing model containing an items base price.
+ * Base pricing model with an item's base price.
  */
 public abstract class PricingModel
 {

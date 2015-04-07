@@ -7,7 +7,8 @@ package org.shopping.market;
 public interface Supermarket
 {
     /**
-     * Performs the checkout process for a series of items and returns a total cost of the items.
+     * Performs the checkout process for a series of items and returns a total cost of the items. All pricing
+     * models are applied.
      *
      * @param items a series of single character product codes to be checked out
      *

@@ -12,16 +12,6 @@ public class Product
     private PricingModel pricingModel;
 
     /**
-     * Creates a new product with the specified id.
-     *
-     * @param id product identifier
-     */
-    public Product(String id)
-    {
-        this.id = id;
-    }
-
-    /**
      * Creates a new product with the specified id and pricing model.
      *
      * @param id product identifier
@@ -42,10 +32,5 @@ public class Product
     public PricingModel getPricingModel()
     {
         return pricingModel;
-    }
-
-    public void setPricingModel(PricingModel pricingModel)
-    {
-        this.pricingModel = pricingModel;
     }
 }
